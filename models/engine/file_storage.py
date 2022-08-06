@@ -6,11 +6,15 @@ import json
 import os
 from models import base_model
 
+
 BaseModel = base_model.BaseModel
 nameClass = ["BaseModel"]
 
+
 class FileStorage:
-    """Class for JSON serializtion and deserialization and storing of base classes."""
+    """Class for JSON serializtion and
+    deserialization and storing of base classes.
+    """
 
     __file_path = "file.json"
     __objects = {}
@@ -26,7 +30,7 @@ class FileStorage:
         classId = className + "." + id
         FileStorage.__objects[classId] = obj
 
-    def save(self): 
+    def save(self):
         """Serializes __objects to the JSON file"""
         with open(FileStorage.__file_path, "w", encoding="utf-8") as f:
             d = {k: v.to_dict() for k, v in FileStorage.__objects.items()}

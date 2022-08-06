@@ -3,13 +3,13 @@
 Contains the Base class for the AirBnB clone console.
 """
 
+
 import uuid
 from datetime import datetime
 import models
 
 
 class BaseModel:
-
     """Class for base model of object hierarchy."""
 
     def __init__(self, *args, **kwargs):
@@ -34,7 +34,6 @@ class BaseModel:
             self.created_at = datetime.now()
             self.updated_at = datetime.now()
             models.storage.new(self)
-
 
     def __str__(self):
         """Returns a human-readable string representation

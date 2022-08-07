@@ -5,6 +5,7 @@ import datetime
 import json
 import os
 from models import base_model
+from models.user import User
 
 BaseModel = base_model.BaseModel
 nameClass = ["BaseModel"]

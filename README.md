@@ -116,6 +116,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 ## Authors
 
 👤 **Kingsley Ocran**
+👤 **John Mathai**
 
 - GitHub: [@kingsleyocran](https://github.com/kingsleyocran)
 - LinkedIn: [Kingsley Ocran](http://linkedin.com/in/kingsley-ocran-9909a3186/)

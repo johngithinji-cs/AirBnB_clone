@@ -119,7 +119,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 👤 **John Mathai**
 
 - GitHub: [@kingsleyocran](https://github.com/kingsleyocran)
-- LinkedIn: [Kingsley Ocran](http://linkedin.com/in/kingsley-ocran-9909a3186/)
+- LinkedIn: [Kingsley Ocran](http://linkedin.com/in/kingsley-ocran/)
 
 
 ## Show your support
